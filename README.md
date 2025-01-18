@@ -1,4 +1,4 @@
-# data of koeki-info
+# koeki-opendata
 
 公益法人オープンデータ
 
@@ -6,5 +6,5 @@
 
 ## opendata
 
-- [koeki-zaidan.csv](koeki-zaidan.csv) - 公益財団データ (廃止された法人を含む)
+- [koeki-zaidan.csv](koeki-zaidan.csv) - 公益財団データ (廃止された法人を含む、全角アルファベットは半角に変換)
 - [koeki-corps-details.csv](koeki-corps-details.csv) - 全件取得 (テストデータ、廃止された法人を含む)
