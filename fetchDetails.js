@@ -5,7 +5,8 @@ import { fetchDetail } from "./fetchDetail.js";
 
 const fn = "koeki-corps-details.csv";
 const list = await CSV.fetchJSON(fn, []);
-const start = 1;
+//const start = 29947; // 2025-01-18
+const start = 29949; // 2025-01-27
 const end = 30000; // 9999
 for (let i = start; i <= end; i++) {
   const html = await fetchDetail(i);
